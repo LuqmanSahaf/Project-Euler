@@ -41,4 +41,4 @@ A = 3 * ( 1 + 2 + 3 + ... + (Ceil(n/3) - 1) )
 ```
 
 The sum in brackets is _arithmetic sum_ of upto **_k_**, where **_k_** equals the number of multiples of 3 (or 5) below **_n_**. Same can be done for 5 and 15.
-Why `(Ceil(n/3) - 1)`? Because, **_n_** might itself be multiple of **_n_**, so it will give wrong number of multiples _below_ **_n_**.
+Why `(Ceil(n/3) - 1)`? Because, **_n_** might itself be multiple of **_n_**, so it will give wrong **_k_** (number of multiples _below_ **_n_**).
