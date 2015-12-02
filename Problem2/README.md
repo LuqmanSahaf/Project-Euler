@@ -70,6 +70,7 @@ This can be represented as:
 ##### Solution
 
 There are two parts to the solution:
+
 1. Find the G(n) and G(n+1), for which G(n) < limit and G(n+1) >= limit
 2. Apply Formula (Proof ahead):
 ```
