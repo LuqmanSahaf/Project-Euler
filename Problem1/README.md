@@ -46,4 +46,4 @@ Why `(Ceil(n/3) - 1)`? Because, **_n_** might itself be multiple of **_n_**, so 
 Here are the solutions for this problem:
 - [Go](go/problem1.go)
 - [Haskell](haskell/problem1.hs)
-- [Scala](scala/problem1.scala)
+- [Scala](scala/Problem1.scala)
