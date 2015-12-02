@@ -3,7 +3,7 @@ arithmeticSum :: Integer -> Integer
 arithmeticSum x =  x*(x+1) `div` 2
 
 sumOfMultiplesBelow :: Integer -> Integer -> Integer
-x `sumOfMultiplesBelow` y = x * arithmeticSum (ceiling (fromIntegral(y)/fromIntegral(x)) - 1)
+x `sumOfMultiplesBelow` y = x * ( arithmeticSum $ ceiling $ fromIntegral(y)/fromIntegral(x)-1 )
 
 solve :: Integer -> Integer
 solve x
